@@ -2,6 +2,8 @@
 
 A Streamlit dashboard that ingests, cleans, feature-engineers, and analyzes the **Online Retail II** dataset (UK e-commerce transactions, 2009–2011). It surfaces Pearson correlations between engineered retail metrics, generates plain-English business interpretations, and compiles print-ready PDF/TXT executive reports.
 
+🔗 Live Demo: retail-business-intelligence-customer-purchase-analytics-syste.streamlit.app
+
 ## 🚀 Key Features
 
 - **Two-file ingestion & caching**: Merges `Retail 2009-10.csv` and `Retail 2010-11.csv` into a single dataset, with cached merged/processed outputs so subsequent runs skip re-processing.
